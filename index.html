@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2Distore</title>
+    <link rel="icon" type="image/x-icon" href="img/magikarp.ico"/>
+    <meta http-equiv="refresh" content="1500">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">2Distore</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="video/animeshort.mp4" muted loop autoplay playsinline></video>
+        
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>manutenzione</h2>
+            <p>Copyright © 2022 Daniele Grandi All rights reserved.</p>
+            <a href="market.html">Esplora</a>
+        </div>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html"><strong>Home</strong></a></li><br>
+            <li><a href="market.html">Prodotti</a></li><br>
+            <li><a href="https://www.instagram.com/danielegrandi_/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,215 @@
+@import url(//db.onlinewebfonts.com/c/796e2db2256ddfab47394211f41ac410?family=Acumin+Pro);
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Acumin-Pro', sans-serif;
+}
+body{
+  background-color: #F5F5F7;
+}
+p{
+  color: #272727;
+  font-size: 0.85em;
+  
+}
+h1{
+  color: #272727;
+  font-size: 0.95em;
+  margin-bottom: 1.5%;
+}
+h2{
+  color: #7099ED;
+  font-size: 1.2em;
+  
+}
+.tutto{
+  padding-right: 18%;
+  padding-left: 18%;
+}
+header{
+  background-color: #272727;
+  display: flex;
+  height: 40px;
+  font-size: 1em;
+}
+a{
+  margin: auto;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #d7d8da;
+  text-decoration: none; 
+}
+
+
+
+
+
+
+video {
+  display: block;
+  width: 100%;
+  height: 486px;
+  object-fit: cover;
+  overflow: none;
+}
+
+
+
+
+
+
+
+.barra{
+  position: relative;
+  width: 100%;
+  background: white;
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+#arrowsvg {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#arrowsvg:hover {
+  top: -10px;
+  
+}
+.itemx {
+  position: relative;
+  margin: auto;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+.prodotti{
+  display: flex;
+  margin-bottom: 100px;
+  background-color: white;
+  
+}
+.box{
+ box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+;
+  background: white;
+  border-radius: 5px;
+  width: 220px;
+  height: 440px;
+  margin: auto;
+  margin-top:60px;
+  margin-bottom:200px;
+}
+
+#arrow {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#arrow:hover {
+  top: -10px;
+  background-color: #6698F4;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.foto
+{
+  margin-top: 10px;  
+  border-radius: 50px;
+}
+.foto:hover
+{
+  opacity: 0.9;
+  
+}
+
+
+
+
+
+.layout{
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.hot{
+  background-color: #E84956;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 0.7em;
+  line-height: 0.5em;
+  letter-spacing: 2.5px;
+  margin: auto;
+}
+.new{
+  background-color: #6698F4;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 0.7em;
+  line-height: 0.5em;
+  letter-spacing: 2.5px;
+
+}
+.bestsell{
+  background-color: #6CCC97;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 0.7em;
+  line-height: 0.5em;
+  letter-spacing: 2.5px;
+
+}
+.sconto{
+  background-color: #F4B53F;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 0.7em;
+  line-height: 0.5em;
+  letter-spacing: 2.5px;
+}
+.shoppa{
+  background-color: #F5F5F7;
+  border-radius: 5px;
+  margin: auto;
+  padding: 13px;
+}
+.shoppa:hover{
+  content: url("img/shop2.png");
+  width: 47px;
+  height: 47px;
+}
